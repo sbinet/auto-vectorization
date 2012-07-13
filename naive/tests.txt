@@ -1,0 +1,12 @@
+time ./vec-nvec
+6.41user 0.10system 0:06.56elapsed 99%CPU (0avgtext+0avgdata 113732maxresident)k
+0inputs+0outputs (0major+1989minor)pagefaults 0swaps
+time ./vec-avec
+6.27user 0.09system 0:06.42elapsed 99%CPU (0avgtext+0avgdata 113732maxresident)k
+0inputs+0outputs (0major+1990minor)pagefaults 0swaps
+time ./go-nvec
+9.28user 0.11system 0:09.45elapsed 99%CPU (0avgtext+0avgdata 234940maxresident)k
+0inputs+0outputs (0major+30149minor)pagefaults 0swaps
+time ./go-avec
+4.02user 0.05system 0:04.18elapsed 97%CPU (0avgtext+0avgdata 47348maxresident)k
+0inputs+0outputs (0major+2705minor)pagefaults 0swaps
